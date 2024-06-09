@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5C2331; /* Background color for contrast */
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 1250px;
+    height: 1500px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    align-items: center;  
+    margin-top: 20px;   
+}
+
+.containerBio {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    max-width: 700px;
+    height: 100%;
+    max-height: 270px;
+    background-color: #12202E;
+    align-items: start; 
+    margin-top: 110px;
+    border-radius: 10px;   
+}
+
+.containerText {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 700px;
+    height: 90%;
+    max-height: 500px;
+    background-color: #12202E;
+    align-items: start; 
+    border-radius: 10px;  
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.eduPic {
+    width: 30%; 
+    height: 60%; 
+    margin-left: 280px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container .subContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1000px; 
+    height: auto;
+    max-height: 100px; 
+    background-color: #ededed;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container .title {
+    color: black;
+    font-size: 20px;
+    font-family: "Lucida Handwriting";
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.container .text {
+    flex-grow: 1; /* Allow the text to take up the remaining space */
+    color: #333; /* Text color */
+    font-size: 16px; /* Font size */
+    line-height: 1.5;
+
+}
+
+.containerBio .image{
+    height: 85%; /* Ensure the image fits within the container height */
+    width: 150px; /* Adjust this value to control the image width */
+    border-radius: 5px; /* Optional: to match the subContainer border-radius */
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.containerBio .text {
+    color: #D4AF37;
+    font-size: 20px;
+    font-family: "Lucida Handwriting";
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 12px 50px;
+    width: 93%;
+}
+
+.navbar .title {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 50px;
+}
+
+.navbar .spacer {
+    flex-grow: 1;
+}
+
+.navbar .nav-links {
+    display: flex;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.navbar .nav-links a:hover {
+    background-color: #333;
+    color: black;
+}
+
+.content {
+    padding: 35px;
+    overflow: auto;
+    flex-grow: 1; /* Make content take up remaining space */
+}
+
+h1{
+    margin-bottom: 0; 
+    margin-top: 0;
+}
+
+p{
+    margin-bottom: 0; 
+    margin-top: 0;
+}
